@@ -1,0 +1,42 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  padding-right: 100px;
+  padding-bottom: 50px;
+  padding-top: 20px;
+  padding-left: 100px;
+}
+.navbar img {
+ margin-top: -10px;
+}
+
+.navLinks {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  font-size: 20px;
+  color: black;
+}
+.navLinks a:hover{
+color: white;
+background-color: var(--purple);
+cursor: pointer;
+transform: scale(3.05);
+}
+
+.navLinks  a {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  position: relative;
+  border-radius: 25px;
+  transition: all 3.0 ease;
+  padding: 10px 10px 10px 10px;
+
+}
+
+.navLinks li .active {
+  border-bottom: 2px solid black;
+  padding-bottom: 4px;
+}

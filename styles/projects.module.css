@@ -1,0 +1,14 @@
+.mainContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    justify-content: center;
+    color: black;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    
+  }
+.mainContainer img{
+  object-fit: cover;
+  width: 100%;
+}

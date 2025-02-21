@@ -1,0 +1,60 @@
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  border-radius: 16px;
+  transition: all 0.3s ease-in-out;
+  width: 400px;
+}
+
+.imageWrapper {
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.sampleCard {
+  width: 300px;
+  height: 400px;
+  border-radius: 25px;
+  transition: all 0.3s ease-in-out;
+}
+
+.cardContainer:hover {
+  border: 3px solid var(--blue);
+  box-shadow: 100px 100px 100px rgba(4, 4, 4, 0.2);
+}
+
+.textContainer {
+  text-align: center;
+  margin-top: 12px;
+}
+
+.title {
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.subtitle {
+  color: black;
+  font-size: 16px;
+  opacity: 0.8;
+}
+
+/* .viewButton {
+  background-color: var(--purple);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  padding: 10px 30px 10px 30px;
+  margin-top: 12px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+.viewButton:hover {
+  background-color: violet;
+} */
+
+  
