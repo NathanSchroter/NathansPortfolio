@@ -1,7 +1,6 @@
 import Head from "next/head";
 import {Open_Sans} from "next/font/google";
 import NavBar from '@/components/navbar';
-// import Footer from '@/components/Footer';
 import "@/styles/globals.css";
 
 const open_Sans = Open_Sans({

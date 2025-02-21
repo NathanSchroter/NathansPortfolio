@@ -26,7 +26,7 @@ export default function About() {
           <h3>Skills</h3>
           <div className={styles.skillsIcons}>
             {['AE', 'ID', 'css', 'Figma', 'HTML', 'AI', 'JS', 'PS', 'React'].map(icon => (
-              <Image key={icon} src={`/icons/${icon}.png`} alt={icon} width={40} height={40} className={styles.skillIcon} />
+              <Image key={icon} src={`/${icon}.png`} alt={icon} width={40} height={40} className={styles.skillIcon} />
             ))}
           </div>
           <p>Visit the projects section to see the work done with these web technologies.</p>
