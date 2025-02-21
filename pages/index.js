@@ -10,13 +10,13 @@ import UNA from "@/public/UNA.png";
 import bookOne from "@/public/bookFour.png";
 import Draft from "@/public/Draft.png";
 import ReactIcon from "@/public/icons/React.png";
-import PS from "@/public/icons/PS.png";
-import AI from "@/public/icons/AI.png";
-import CSS from "@/public/icons/css.png";
-import JS from "@/public/icons/JS.png";
-import GIT from "@/public/icons/Github.png";
-import Html from "@/public/icons/HTML.png";
-import Figma from "@/public/icons/Figma.png";
+import PS from "@/public/PS.png";
+import AI from "@/public/AI.png";
+import CSS from "@/public/css.png";
+import JS from "@/public/JS.png";
+import GIT from "@/public/Github.png";
+import Html from "@/public/HTML.png";
+import Figma from "@/public/Figma.png";
 
 export default function Home() {
   const router = useRouter();
