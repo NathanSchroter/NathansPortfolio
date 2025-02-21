@@ -1,9 +1,7 @@
 import bookOne from "@/public/bookOne.png";
 import bookTwo from "@/public/bookTwo.png";
 import bookThree from "@/public/bookThree.png";
-import bookFour from "@/public/bookFour.png";
 import Image from "next/image";
-
 import React from "react";
 import styles from "../styles/caseStudyOne.module.css";
 import Footer from "@/components/footer";
@@ -66,7 +64,7 @@ export default function Bookstore() {
               required optimizing the performance to handle larger book collections effectively.
             </p>
           </section>
-          <Image src={bookTwo} alt="Sorting methodology visualization" />
+      
         </div>
 
         <section className={styles.execution}>
@@ -102,7 +100,7 @@ export default function Bookstore() {
             re-renders and improving overall efficiency.
           </p>
         </section>
-        <Image src={bookFour} alt="Filter and sorting interface" />
+        <Image src={bookTwo} alt="Filter and sorting interface" />
 
         <section className={styles.results}>
           <h2>Results & Impact</h2>

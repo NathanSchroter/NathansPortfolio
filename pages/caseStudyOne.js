@@ -1,6 +1,5 @@
 import OnceOne from "@/public/onceOne.png";
 import OnceTwo from "@/public/onceTwo.png";
-import OnceThree from "@/public/onceThree.png";
 import OnceFour from "@/public/onceFour.png";
 import Image from "next/image";
 import OnceFigma from "@/public/onceFigmaOne.png"
@@ -30,7 +29,7 @@ export default function CulturalRecipeApp() {
             Many individuals tend to stick to familiar meals, leading to a repetitive and uninspiring diet. Additionally, finding authentic recipes from other cultures can often be challenging. Our goal was to create a platform that not only introduces users to diverse cuisines but also provides an engaging way to learn and prepare them through interactive features.
           </p>
         </section>
-        <Image src={OnceThree} alt="User exploring recipe options" />
+        <Image src={OnceTwo} alt="User exploring recipe options" />
 
         <div className={styles.sectionOne}>
           <section className={styles.approach}>

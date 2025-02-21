@@ -3,13 +3,12 @@ import { useRouter } from 'next/router';
 import Image from "next/image";
 import styles from '@/styles/Home.module.css';
 import Footer from '@/components/footer';
-
 import Logo from "@/public/Logo.png";
 import OnceUponAMeal from "@/public/onceOne.png";
 import UNA from "@/public/UNA.png";
-import bookOne from "@/public/bookFour.png";
+import bookOne from "@/public/bookThree.png";
 import Draft from "@/public/Draft.png";
-import ReactIcon from "@/public/icons/React.png";
+import ReactIcon from "@/public/React.png";
 import PS from "@/public/PS.png";
 import AI from "@/public/AI.png";
 import CSS from "@/public/css.png";
