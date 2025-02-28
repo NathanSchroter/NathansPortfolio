@@ -13,7 +13,7 @@ import PS from "@/public/ps.png";
 import AI from "@/public/ai.png";
 import CSS from "@/public/css.png";
 import JS from "@/public/js.png";
-import GIT from "@/public/gitHub.png";
+import Git from "@/public/gitHubOne.png";
 import Html from "@/public/html.png";
 import Figma from "@/public/figma.png";``
 
@@ -37,7 +37,7 @@ export default function Home() {
   const handleNavigation = () => router.push('/casestudyOne');
   const handleNavigationTwo = () => router.push('/casestudyTwo');
   const handleNavigationThree = () => router.push('/casestudyThree');
-  // const handleNavigationFour = () => router.push('/casestudyFour');
+  const handleNavigationFour = () => router.push('/casestudyFour');
 
   return (
     <>
@@ -60,7 +60,7 @@ export default function Home() {
             <Image src={AI} />
             <Image src={CSS} />
             <Image src={JS} />
-            <Image src={GIT} />
+            <Image src={Git} />
             <Image src={Html} />
           </div>
           <div className={styles.caseStudyImageContainer}>
@@ -74,7 +74,7 @@ export default function Home() {
           <div className={styles.icons}>
             <Image src={CSS} />
             <Image src={JS} />
-            <Image src={GIT} />
+            <Image src={Git} />
             <Image src={Html} />
           </div>
           <div className={styles.caseStudyImageContainer}>
@@ -91,7 +91,7 @@ export default function Home() {
             <Image src={CSS} />
             <Image src={JS} />
             <Image src={Html} />
-            <Image src={GIT} />
+            <Image src={Git} />
             <Image src={Figma} />
           </div>
           <div className={styles.caseStudyImageContainer}>

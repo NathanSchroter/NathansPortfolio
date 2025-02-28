@@ -1,7 +1,7 @@
-// import Github from "@/public/gitHub.png";
-// import Instagram from "@/public/instagram.png";
-// import Gmail from "@/public/gmail.png";
-// import Linkedin from "@/public/linkedin.png";
+import Github from "@/public/gitHubOne.png";
+import Instagram from "@/public/instagram.png";
+import Gmail from "@/public/gmail.png";
+import Linkedin from "@/public/linkedin.png";
 import styles from "./footer.module.css";
 import Link from "next/link";
 import Image from "next/image";
