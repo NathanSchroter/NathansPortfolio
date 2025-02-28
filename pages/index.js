@@ -34,10 +34,10 @@ export default function Home() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const handleNavigation = () => router.push('/caseStudyOne');
-  const handleNavigationTwo = () => router.push('/caseStudyTwo');
-  const handleNavigationThree = () => router.push('/caseStudyThree');
-  const handleNavigationFour = () => router.push('/caseStudyFour');
+  const handleNavigation = () => router.push('/casestudyOne');
+  const handleNavigationTwo = () => router.push('/casestudyTwo');
+  const handleNavigationThree = () => router.push('/casestudyThree');
+  const handleNavigationFour = () => router.push('/casestudyFour');
 
   return (
     <>
