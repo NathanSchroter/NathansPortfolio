@@ -3,19 +3,6 @@ import { useRouter } from 'next/router';
 import Image from "next/image";
 import styles from '@/styles/Home.module.css';
 import Footer from '@/components/footer';
-import Logo from "@/public/logo.png";
-import OnceUponAMeal from "@/public/onceOne.png";
-import Una from "@/public/una.png";
-import bookOne from "@/public/bookThree.png";
-import Draft from "@/public/draft.png";
-import ReactIcon from "@/public/react.png";
-import PS from "@/public/ps.png";
-import AI from "@/public/ai.png";
-import CSS from "@/public/css.png";
-import JS from "@/public/js.png";
-import Git from "@/public/gitHubOne.png";
-import Html from "@/public/html.png";
-import Figma from "@/public/figma.png";``
 
 export default function Home() {
   const router = useRouter();
@@ -47,7 +34,7 @@ export default function Home() {
             <h1 className={styles.title}>Graphic Designer and UX/UI Designer</h1>
           </div>
           <div className={styles.imageContainer}>
-            <img src={Logo.src} alt="Nathan" className={styles.profileImage} />
+            <Image src="/logo.png" alt="Nathan" width={100} height={200} className={styles.profileImage} />
           </div>
         </div>
 
@@ -55,16 +42,16 @@ export default function Home() {
         <div className={styles.caseStudySection}>
           <h2 className={styles.caseStudyTitle}>DESIGNING Once Upon a Meal</h2>
           <div className={styles.icons}>
-            <Image src={ReactIcon} />
-            <Image src={PS} />
-            <Image src={AI} />
-            <Image src={CSS} />
-            <Image src={JS} />
-            <Image src={Git} />
-            <Image src={Html} />
+            <Image src="/react.png" alt="React" width={30} height={30} />
+            <Image src="/ps.png" alt="Photoshop" width={30} height={30} />
+            <Image src="/ai.png" alt="Illustrator" width={30} height={30} />
+            <Image src="/css.png" alt="CSS" width={30} height={30} />
+            <Image src="/js.png" alt="JavaScript" width={30} height={30} />
+            <Image src="/gitHubOne.png" alt="GitHub" width={30} height={30} />
+            <Image src="/html.png" alt="HTML" width={30} height={30} />
           </div>
           <div className={styles.caseStudyImageContainer}>
-            <img src={OnceUponAMeal.src} alt="Case Study" className={styles.caseStudyImage} />
+            <Image src="/onceOne.png" alt="Once Upon a Meal Case Study" width={400} height={550} className={styles.caseStudyImage} />
           </div>
           <button className={styles.caseStudyButton} onClick={handleNavigation}>View Case Study</button>
         </div>
@@ -72,13 +59,13 @@ export default function Home() {
         <div className={styles.caseStudySection}>
           <h2 className={styles.caseStudyTitle}>DESIGNING Bookstore with a filtering system</h2>
           <div className={styles.icons}>
-            <Image src={CSS} />
-            <Image src={JS} />
-            <Image src={Git} />
-            <Image src={Html} />
+            <Image src="/css.png" alt="CSS" width={30} height={30} />
+            <Image src="/js.png" alt="JavaScript" width={30} height={30} />
+            <Image src="/gitHubOne.png" alt="GitHub" width={30} height={30} />
+            <Image src="/html.png" alt="HTML" width={30} height={30} />
           </div>
           <div className={styles.caseStudyImageContainer}>
-            <img src={bookOne.src} alt="Case Study" className={styles.caseStudyImage} />
+            <Image src="/bookThree.png" alt="Bookstore Case Study" width={400} height={550} className={styles.caseStudyImage} />
           </div>
           <button className={styles.caseStudyButton} onClick={handleNavigationTwo}>View Case Study</button>
         </div>
@@ -86,16 +73,16 @@ export default function Home() {
         <div className={styles.caseStudySection}>
           <h2 className={styles.caseStudyTitle}>Designing UNA</h2>
           <div className={styles.icons}>
-            <Image src={PS} />
-            <Image src={AI} />
-            <Image src={CSS} />
-            <Image src={JS} />
-            <Image src={Html} />
-            <Image src={Git} />
-            <Image src={Figma} />
+            <Image src="/ps.png" alt="Photoshop" width={30} height={30} />
+            <Image src="/ai.png" alt="Illustrator" width={30} height={30} />
+            <Image src="/css.png" alt="CSS" width={30} height={30} />
+            <Image src="/js.png" alt="JavaScript" width={30} height={30} />
+            <Image src="/html.png" alt="HTML" width={30} height={30} />
+            <Image src="/gitHubOne.png" alt="GitHub" width={30} height={30} />
+            <Image src="/figma.png" alt="Figma" width={30} height={30} />
           </div>
           <div className={styles.caseStudyImageContainer}>
-            <img src={Una.src} alt="Case Study" className={styles.caseStudyImage} />
+            <Image src="/una.png" alt="UNA Case Study" width={400} height={550} className={styles.caseStudyImage} />
           </div>
           <button className={styles.caseStudyButton} onClick={handleNavigationThree}>View Case Study</button>
         </div>
@@ -103,12 +90,12 @@ export default function Home() {
         <div className={styles.caseStudySection}>
           <h2 className={styles.caseStudyTitle}>Prototyping Draft Labs</h2>
           <div className={styles.icons}>
-            <Image src={PS} />
-            <Image src={AI} />
-            <Image src={Figma} />
+            <Image src="/ps.png" alt="Photoshop" width={30} height={30} />
+            <Image src="/ai.png" alt="Illustrator" width={30} height={30} />
+            <Image src="/figma.png" alt="Figma" width={30} height={30} />
           </div>
           <div className={styles.caseStudyImageContainer}>
-            <img src={Draft.src} alt="Case Study" className={styles.caseStudyImage} />
+            <Image src="/draft.png" alt="Draft Labs Case Study" width={400} height={550} className={styles.caseStudyImage} />
           </div>
           <button className={styles.caseStudyButton} onClick={handleNavigationFour}>Coming Soon</button>
         </div>
@@ -117,6 +104,7 @@ export default function Home() {
     </>
   );
 }
+
 
 
 
