@@ -5,7 +5,7 @@ import styles from '@/styles/Home.module.css';
 import Footer from '@/components/footer';
 import Logo from "@/public/logo.png";
 import OnceUponAMeal from "@/public/onceOne.png";
-import UNA from "@/public/una.png";
+import Una from "@/public/una.png";
 import bookOne from "@/public/bookThree.png";
 import Draft from "@/public/draft.png";
 import ReactIcon from "@/public/react.png";
@@ -37,7 +37,7 @@ export default function Home() {
   const handleNavigation = () => router.push('/casestudyOne');
   const handleNavigationTwo = () => router.push('/casestudyTwo');
   const handleNavigationThree = () => router.push('/casestudyThree');
-  const handleNavigationFour = () => router.push('/casestudyFour');
+  // const handleNavigationFour = () => router.push('/casestudyFour');
 
   return (
     <>
@@ -95,7 +95,7 @@ export default function Home() {
             <Image src={Figma} />
           </div>
           <div className={styles.caseStudyImageContainer}>
-            <img src={UNA.src} alt="Case Study" className={styles.caseStudyImage} />
+            <img src={Una.src} alt="Case Study" className={styles.caseStudyImage} />
           </div>
           <button className={styles.caseStudyButton} onClick={handleNavigationThree}>View Case Study</button>
         </div>
