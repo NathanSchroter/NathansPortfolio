@@ -3,19 +3,19 @@ import { useRouter } from 'next/router';
 import Image from "next/image";
 import styles from '@/styles/Home.module.css';
 import Footer from '@/components/footer';
-import Logo from "@/public/Logo.png";
+import Logo from "@/public/logo.png";
 import OnceUponAMeal from "@/public/onceOne.png";
-import UNA from "@/public/UNA.png";
+import UNA from "@/public/una.png";
 import bookOne from "@/public/bookThree.png";
-import Draft from "@/public/Draft.png";
-import ReactIcon from "@/public/React.png";
-import PS from "@/public/PS.png";
-import AI from "@/public/AI.png";
+import Draft from "@/public/draft.png";
+import ReactIcon from "@/public/react.png";
+import PS from "@/public/ps.png";
+import AI from "@/public/ai.png";
 import CSS from "@/public/css.png";
-import JS from "@/public/JS.png";
-import GIT from "@/public/Github.png";
-import Html from "@/public/HTML.png";
-import Figma from "@/public/Figma.png";
+import JS from "@/public/js.png";
+import GIT from "@/public/gitHub.png";
+import Html from "@/public/html.png";
+import Figma from "@/public/figma.png";``
 
 export default function Home() {
   const router = useRouter();

@@ -1,6 +1,6 @@
 import styles from "@/styles/about.module.css";
 import Image from "next/image";
-import Me from "@/public/Me.png";
+import Me from "@/public/me.png";
 import Link from "next/link";
 import Footer from "@/components/footer";
 export default function About() {
