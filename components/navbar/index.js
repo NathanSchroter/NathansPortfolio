@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
 import styles from "./header.module.css";
-import Logo from "@/public/logo.png";
+import Logo from "../../public/logo.png";
 import Image from "next/image";
 
 export default function Navbar() {

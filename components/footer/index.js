@@ -1,11 +1,11 @@
-import Github from "@/public/gitHubOne.png";
-import Instagram from "@/public/instagram.png";
-import Gmail from "@/public/gmail.png";
-import Linkedin from "@/public/linkedin.png";
+import Github from "../../public/gitHubOne.png";
+import Instagram from "../../public/instagram.png";
+import Gmail from "../../public/gmail.png";
+import Linkedin from "../../public/linkedin.png";
 import styles from "./footer.module.css";
 import Link from "next/link";
 import Image from "next/image";
-import Me from "@/public/logo.png";
+import Me from "../../public/logo.png";
 
 export default function Footer() {
   return (
