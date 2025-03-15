@@ -224,7 +224,16 @@ padding: 10px;
 .html::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
-
+.preview{
+  display: flex;
+  justify-content: space-between;
+}
+.preview button {
+  color: var(--purple);
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
 
 
 
