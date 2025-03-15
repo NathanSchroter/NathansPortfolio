@@ -21,8 +21,8 @@
   }
   
   .overlayImage {
-    /* max-width: 200px;
-    height: 200px; */
+    max-width: 550px;
+    height: 500px;
     margin-bottom: 15px;
   }
   
@@ -40,8 +40,10 @@
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    text-align: center;
   }
   
   .closeButton:hover {
+    color: white;
     background-color: var(--purple);
   }

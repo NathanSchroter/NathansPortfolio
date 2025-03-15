@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import styles from './Overlay.module.css';
+import styles from './overlay.module.css';
 
 const Overlay = ({ isVisible, onClose,image,text }) => {
   if (!isVisible) return null;
