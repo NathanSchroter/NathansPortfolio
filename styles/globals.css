@@ -9,26 +9,4 @@ body{
   --blue: #46526f;
 }
 
-/* html {
-  overflow-y: scroll; 
-  scrollbar-width: thin; 
-  scrollbar-color: var(--blue); 
-}
 
-
-html::-webkit-scrollbar {
-  width: 8px;
-}
-
-html::-webkit-scrollbar-track {
-  background: var(--blue);
-}
-
-html::-webkit-scrollbar-thumb {
-  background: var(--blue);
-  border-radius: 4px;
-}
-
-html::-webkit-scrollbar-thumb:hover {
-  background: var(--blue);
-} */
