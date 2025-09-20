@@ -73,7 +73,7 @@ export default function Home() {
           <div className={styles.caseStudyImageContainer}>
             <Image src="/onceOne.png" alt="Once Upon a Meal Case Study" width={400} height={550} className={styles.caseStudyImage} />
           </div>
-          <button className={styles.caseStudyButton} onClick={() => handleNavigation('/casestudyOne')}>View Case Study</button>
+          <button className={styles.caseStudyButton} onClick={() => handleNavigation('/caseStudyOne')}>View Case Study</button>
         </div>
 
         {/* Case Study: Bookstore */}
@@ -120,7 +120,7 @@ export default function Home() {
           <div className={styles.caseStudyImageContainer}>
             <Image src="/una.png" alt="UNA Case Study" width={400} height={550} className={styles.caseStudyImage} />
           </div>
-          <button className={styles.caseStudyButton} onClick={() => handleNavigation('/casestudyThree')}>View Case Study</button>
+          <button className={styles.caseStudyButton} onClick={() => handleNavigation('/caseStudyThree')}>View Case Study</button>
         </div>
 
         {/* Case Study: Draft Labs */}
@@ -141,7 +141,7 @@ export default function Home() {
           <div className={styles.caseStudyImageContainer}>
             <Image src="/draft.png" alt="Draft Labs Case Study" width={400} height={550} className={styles.caseStudyImage} />
           </div>
-          <button className={styles.caseStudyButton} onClick={() => handleNavigation('/casestudyFour')}>Coming Soon</button>
+          <button className={styles.caseStudyButton} onClick={() => handleNavigation('/caseStudyFour')}>View Case Study</button>
         </div>
       </div>
 
