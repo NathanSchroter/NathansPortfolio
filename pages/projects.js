@@ -32,11 +32,7 @@ export default function Projects() {
                     title="Bitmask + Graphic Design Website" 
                     subtitle="Graphic Design, CSS, HTML, Javascript, Next.js"
                 /> */}
-                <SampleCard 
-                    image={Bookstore} 
-                    title="Bookstore Website" 
-                    subtitle="CSS, HTML, Javascript, Next.js"
-                />
+            
                 <SampleCard 
                     image={Cofee} 
                     title="Coffee Machine Graphic" 

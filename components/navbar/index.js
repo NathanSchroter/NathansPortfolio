@@ -25,9 +25,9 @@ export default function Navbar() {
         })}
         {/* Resume Link Styled Like the Other Navigation Links */}
         <li>
-          <Link href="/Resume.pdf" target="_blank" download="Nathans Resume">
+          {/* <Link href="/Resume.pdf" target="_blank" download="Nathans Resume">
             <span className={styles.navLink}>Resume</span>
-          </Link>
+          </Link> */}
         </li>
       </ul>
     </nav>
