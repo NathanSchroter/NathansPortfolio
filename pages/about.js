@@ -7,7 +7,7 @@ export default function About() {
   return (
     <div className={styles.container}>
       <div className={styles.topSection}>
-        <Image src="/me.png" alt="Nathan Schroter" width={550} height={550} className={styles.profileImage} />
+        <Image src="/nathan.jpg" alt="Nathan Schroter" width={550} height={550} className={styles.profileImage} />
         <section className={styles.intro}>
           <h1>
             I'm <span className={styles.highlight}>Nathan Schroter</span>, a<br />
