@@ -19,11 +19,11 @@ export default function About() {
             ReactJS, NextJS, Illustrator, Photoshop, InDesign, After Effects, and content management systems like 
             WordPress. I am from Richmond, B.C. Looking forward to meeting you!
           </p>
-          <div className={styles.buttons}>
+          {/* <div className={styles.buttons}>
             <Link href="/Resume.pdf" target="_blank">
               <button className={styles.btn}>Download CV</button>
             </Link>
-          </div>
+          </div> */}
         </section>
       </div>
 
